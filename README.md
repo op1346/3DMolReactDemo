@@ -5,6 +5,7 @@
 ## Building & Running
 Simply run
 `yarn install` or `npm install`
+
 then
 `yarn start` or `npm start`
 
@@ -17,4 +18,4 @@ That viewer object is then embedded in a div with configurable height and width.
 
 Various styles are set from the parent react component and passed into the renderer as props.
 
-Data is read from a sample JS file and supports PDB & SDF filetypes. The raw text is copied into the JS for testing purposes, future work can support directly loading from a SDF file.
+Data is read from a sample JS file and supports PDB & SDF filetypes. The raw text is copied into the JS for testing purposes, future work can support directly loading from a SDF/PDB file or downloading files from a server.
